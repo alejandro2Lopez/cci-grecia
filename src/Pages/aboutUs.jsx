@@ -329,7 +329,7 @@ const AboutUs = () => {
       <div className="container py-4 py-xl-5" style={{ height: "100%" }}>
         <div className="row gy-4 gy-md-0 w-100">
           <div className="col">
-            <div className="card " style={{ height: "100%", borderColor:"white" }}>
+            <div className="card " style={{ height: "100%", borderColor: "white" }}>
               <div className="card-body" style={{ height: "100%" }}>
                 <div className="row">
                   <div className="col align-self-center">
@@ -355,13 +355,13 @@ const AboutUs = () => {
                       className=" img-misi w-100 fit-cover"
                       style={{
                         minHeight: 300,
-                
+
                         maxHeight: 300
                       }}
                       src={img_mision}
                       width={322}
-                      height={500}
-                      
+                      height={500} alt=""
+
                     />
                   </div>
                 </div>
