@@ -1,0 +1,21 @@
+@media (min-width: 300px) {
+  .banner-section {
+    /*height: 100vh;*/
+    height: 200px;
+  }
+}
+
+@media (min-width: 300px) {
+  .carousel-inner, .carousel-item, .carousel-item img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 300px) {
+  .carousel-caption {
+    font-size: 14px;
+    padding: 10px;
+    color: rgba(31,31,31,0.37);
+  }
+}
+
