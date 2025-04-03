@@ -19,16 +19,17 @@ import logoCCI2 from "../assets/img/tech/logoCCI.png?h=7c29afcb95ef3ccb5ca928fce
 export  const Navbar = () => {
 
     return <>
-        <nav className="navbar navbar-expand-md bg-body nav-small-dev">
-                <div className="container-fluid">
+        <nav className="navbar navbar-expand-md bg-body nav-small-dev" style={{ textAlign: "center" }}>
+                <div className="container-fluid text-align-center" style={{ textAlign: "center" }}>
                     <Link
-                        className="navbar-brand pe-0 me-0"
+                        className="navbar-brand pe-0 me-0 "
                         to="/"
                         style={{ textAlign: "center", width: "100%" }}>
                         <img
                             className="logo-img-movil"
                             src={logoCCI}
                             alt="Logo"
+                            style={{ textAlign: "center", width: "20%" }}
                         />
                     </Link>
                 </div>
@@ -48,7 +49,7 @@ export  const Navbar = () => {
                             <img
                                 className="img-logo-movil pb-0 mb-0 mt-0 pt-0"
                                 src={logoCCI2}
-                                style={{ textAlign: "right", width: "35%" }}
+                                style={{ textAlign: "right", width: "20%" }}
                                 alt="Logo"
                             />
                         </div>
